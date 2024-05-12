@@ -1,0 +1,55 @@
+.activeHome {
+  border-radius: 85px;
+  border: 2px solid var(--1, #0081ff);
+  background: rgba(244, 251, 255, 0.1);
+  backdrop-filter: blur(250px);
+  color: #0081ff !important;
+}
+
+.activeModel3 {
+  border-radius: 85px;
+  border: 2px solid var(--2, #f10221);
+  background: rgba(244, 251, 255, 0.1);
+  backdrop-filter: blur(250px);
+  color: #f10221 !important;
+}
+
+.activemodel_x {
+  border-radius: 85px;
+  border: 2px solid #fff;
+  background: rgba(244, 251, 255, 0.1);
+  backdrop-filter: blur(250px);
+  color: #fff !important;
+}
+
+.activemodel_y {
+  color: #fff;
+  border-radius: 85px;
+  border: 2px solid #707070;
+  background: rgba(244, 251, 255, 0.1);
+  backdrop-filter: blur(250px);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  border-radius: 85px;
+  background: rgba(244, 251, 255, 0.1);
+  backdrop-filter: blur(250px);
+  padding: 10px 47px 11px 25px;
+}
+
+// loader
+
+.loader {
+  height: 200px;
+  margin: 0 auto;
+  left: 45%;
+  width: max-content;
+}
+
+.loader,
+.rectLoader {
+  fill: #ff6700;
+}
